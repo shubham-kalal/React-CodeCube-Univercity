@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+    .container{
+       @apply w-full w-[1400px] m-auto 
+    }
+    .dark-nav{
+        @apply bg-[#212EA0] transition-all duration-700
+    }
+}
